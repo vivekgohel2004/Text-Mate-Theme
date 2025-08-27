@@ -15,8 +15,10 @@ Open terminal and run the installer:
   curl -sS -o installer_linux.sh https://raw.githubusercontent.com/vivekgohel2004/Text-Mate-Theme/main/installer_linux.sh
   bash installer_linux.sh
   ```
-
-
+  ```ps1
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/vivekgohel2004/Text-Mate-Theme/main/installer_windows.ps1" -OutFile "installer_windows.ps1"
+./installer_windows.ps1
+  ```
 ## 2. Installation (Manual)
 
 1. Download this repo as ZIP and extract it.
